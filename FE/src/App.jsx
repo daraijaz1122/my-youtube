@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +6,8 @@ function App() {
   return (
     <>
       
-     <div> <h1>Youtube app</h1></div>
+     <div className='bg-green-500'> 
+      <h1 className='bg-green-900 p-10 text-white font-bold text-4xl'>Youtube app</h1></div>
     </>
   )
 }
